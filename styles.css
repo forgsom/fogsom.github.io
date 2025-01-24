@@ -1,0 +1,73 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom right, #0d0d0d, #18181b); /* Темный градиент */
+    color: #ffffff; /* Белый цвет текста */
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border: 3px solid #9146ff; /* Фиолетовая рамка изображения */
+}
+
+h1 {
+    color: #9146ff; /* Фиолетовый цвет заголовка */
+    font-size: 2.5em;
+    margin: 10px 0;
+}
+
+section {
+    background-color: #2c2c2e; /* Темный фон для анкеты */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+h2 {
+    color: #9146ff; /* Фиолетовый цвет подзаголовка */
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #3a3a3c; /* Темный фон для элементов списка */
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+li:hover {
+    background-color: #4a4a4c; /* Цвет при наведении на элемент списка */
+}
+
+a {
+    color: #9146ff; /* Фиолетовый цвет ссылок */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 0.9em;
+    color: #b0b0b0; /* Цвет текста в нижнем колонтитуле */
+}
